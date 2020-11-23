@@ -1,0 +1,27 @@
+{
+    "name": "pocpbi-backend",
+    "version": "1.0.0",
+    "description": "Generate Embed Token, URL and Embed the Report.",
+    "main": "./src/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon ./src/server.js",
+        "start": "nodemon ./src/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@azure/identity": "^1.2.0",
+        "@azure/keyvault-secrets": "^4.1.0",
+        "adal-node": "^0.2.1",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "guid": "0.0.12",
+        "node-fetch": "^2.6.1",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}

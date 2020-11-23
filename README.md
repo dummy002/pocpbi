@@ -1,0 +1,1 @@
+[![Build status](https://dev.azure.com/indragamartiyana/pocpbi/_apis/build/status/pocpbibackend%20-%20CI)](https://dev.azure.com/indragamartiyana/pocpbi/_build/latest?definitionId=3)
